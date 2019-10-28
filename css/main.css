@@ -7,3 +7,50 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+img {
+
+}
+nav {
+}
+
+nav ul {
+  font-family: Merriweather, regular;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #d05c2e;
+}
+
+nav li {
+  margin: 0 .5em;
+}
+
+nav a{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #a63f38;
+}
